@@ -8,7 +8,9 @@ import pandas as pd
 # KONFIGURATION
 # ============================================================
 
-SPLIT_DIR = Path("dataset_split_dataset_5")
+DATASET_NAME = "dataset_6"  # <- passend zum jeweiligen Durchlauf
+
+SPLIT_DIR = Path(f"dataset_split_{DATASET_NAME}")
 
 TRAIN_FILE = SPLIT_DIR / "train.csv"
 VAL_FILE = SPLIT_DIR / "val.csv"
@@ -20,6 +22,8 @@ TOLERANCE = 0.05
 # ============================================================
 # DATEN LADEN
 # ============================================================
+
+print(f"Datensatz: {DATASET_NAME}")
 
 print("Lade Splits...")
 

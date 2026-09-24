@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtuelle Umgebung
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+
+# Datensätze
+coco/
+dataset_split_dataset_1/
+dataset_split_dataset_2/
+dataset_split_dataset_3/
+dataset_split_dataset_4/
+dataset_split_dataset_5/
+dataset_split_dataset_6/
+experiment_dataset_dataset_1/
+experiment_dataset_dataset_2/
+experiment_dataset_dataset_3/
+experiment_dataset_dataset_4/
+experiment_dataset_dataset_5/
+experiment_dataset_dataset_6/
+
+# Temporäre Dateien
+*.tmp
+*.bak
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
